@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Rdevang.github.io/GPT3",
+  "homepage": "https://github.com/Rdevang/gpt-3",
   "name": "gpt-3",
   "version": "0.1.0",
   "private": true,
@@ -37,7 +37,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
