@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Rdevang/gpt-3",
+  "homepage": "https://Rdevang.github.io/GPT-3",
   "name": "gpt-3",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "formik": "^2.4.4",
-    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
@@ -37,8 +36,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-
-    "deploy": "gh-pages -b master -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
